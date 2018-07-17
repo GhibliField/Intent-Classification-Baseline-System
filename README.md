@@ -42,9 +42,6 @@ python test.py
 
 ## 工程架构
 
-### 流程图
-
-![架构](doc/arc.png)
 
 ### 文件夹结构
 
