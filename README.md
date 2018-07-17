@@ -4,14 +4,14 @@
 
 By W. Y. Shen 
 
-工程：https://github.com/SpikeKing/DL-Project-Template
+工程：https://github.com/GhibliField/Intent-Classification-Baseline-System
 
 ## 使用方式
 
 下载工程
 
 ```text
-git clone https://github.com/SpikeKing/DL-Project-Template
+git clone https://github.com/GhibliField/Intent-Classification-Baseline-System.git
 ```
 
 
