@@ -4,11 +4,11 @@
 
 By W. Y. Shen 
 
-工程：https://github.com/GhibliField/Intent-Classification-Baseline-System
+PROJECT：https://github.com/GhibliField/Intent-Classification-Baseline-System
 
-## 使用方式
+## USE
 
-下载工程
+DOWNLOAD PROJECT
 
 ```text
 git clone https://github.com/GhibliField/Intent-Classification-Baseline-System.git
@@ -16,34 +16,34 @@ git clone https://github.com/GhibliField/Intent-Classification-Baseline-System.g
 
 
 
-安装Python依赖库
+DEPENDENCIES
 
 ```text
 pip install -r requirements.txt
 ```
 
 
-## 示例工程
+## EXAMPLE
 
 
 
-运行服务端：
+RUN SERVER：
 
 ```text
 python ServerDemo.py 
 ```
 
-预测：
+TEST：
 
 ```text
 python test.py 
 ```
 
 
-## 工程架构
+## PROJECT STRUCTURE
 
 
-### 文件夹结构
+### FILES
 
 ```text
 ├── config.py
@@ -78,7 +78,7 @@ python test.py
 
 ```
 
-## 主要组件
+## MAIN COMPONENTS
 
 - data: 训练数据
 - model: 持久化了的分类模型与必要的对象
@@ -89,7 +89,7 @@ python test.py
 - ServerDemo.py: Flask 测试服务端
 - test.py: 测试脚本
 
-## 感谢
+## REFERENCE
 
 - [MrGemy95/Tensorflow-Project-Template](https://github.com/MrGemy95/Tensorflow-Project-Template)
 - [lrei/NB-SVM](https://github.com/lrei/nbsvm.git)
