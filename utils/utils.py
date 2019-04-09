@@ -262,7 +262,7 @@ class ACAutomatons:
                     "pretty_sure":configs.PRETTY_SURE}
         path=type2path[type]
         A = ahocorasick.Automaton()
-        with open(path, 'r') as f:
+        with open(path, 'r', encoding='UTF-8') as f:
             for idx, line in enumerate(f.readlines()):
                 A.add_word(line.split('\t')[0], (line.split('\t')[1].strip(), line.split('\t')[0]))
         A.make_automaton()
