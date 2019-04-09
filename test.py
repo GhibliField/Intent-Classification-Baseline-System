@@ -14,7 +14,9 @@ def test():
     sentencesList = [{'id': 121, 'content': "帮我订一张火车票好吗？"},
                      {'id': 122, 'content': "好难过啊"},
                      {'id': 123, 'content': "晚上吃饭了吗？"},
-                     {'id': 124, 'content': "好饿啊！"}]
+                     {'id': 124, 'content': "地铁票"},{
+            'id':666,'content':'我想去云南'
+                     }]
     parameter = {'sentencesList': sentencesList}
     headers = {'Content-type': 'application/json'}
     try:
